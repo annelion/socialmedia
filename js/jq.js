@@ -1,14 +1,4 @@
 $(document).ready(function(){
-
-setTimeout(hideDiv, 7000); // videon försvinner efter 7 sekunder  
-            function hideDiv() {
-                document.getElementById("video_background").style.display="none";    
-            }
-
-
-  });
-  
-$(document).ready(function(){
     	//var randomNumber = Math.floor(Math.random() * (1000 - 10)) + min;
 
     $(".likeButton").click(function(){
