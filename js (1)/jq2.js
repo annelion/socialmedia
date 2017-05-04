@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 
 setTimeout(hideDiv, 10000); // videon försvinner efter 7 sekunder  
@@ -7,10 +8,3 @@ setTimeout(hideDiv, 10000); // videon försvinner efter 7 sekunder
 
 
   });
-  
-
-/*
-$(document).ready(function(){
-    $("video_background")hide(1000);(function(){
-});
-*/

@@ -3,8 +3,8 @@ $(document).ready(function(){
 
     $(".likeButton").click(function(){
 	    var txt1 = document.createElement("div");
-  		var randomNumberX = Math.floor(Math.random() * (1080 - 300)) + 800;
-  		var randomNumberY = Math.floor(Math.random() * (900 - 10)) + 1;
+  		var randomNumberX = Math.floor(Math.random() * (680 - 300)) + 750;
+  		var randomNumberY = Math.floor(Math.random() * (500 - 0)) + 1;
   		var randomReklam = Math.floor(Math.random() * 2) + 1;
 
 //slumpa vilken reklam som ska visas upp
@@ -23,8 +23,8 @@ $(document).ready(function(){
     
     $(".likeButton2").click(function(){
 	    var txt1 = document.createElement("div");
-  		var randomNumberX = Math.floor(Math.random() * (1080 - 300)) + 800;
-  		var randomNumberY = Math.floor(Math.random() * (900 - 10)) + 1;
+  		var randomNumberX = Math.floor(Math.random() * (680 - 300)) + 750;
+  		var randomNumberY = Math.floor(Math.random() * (500 - 0)) + 1;
   		var randomReklam = Math.floor(Math.random() * 2) + 1;
 
 //slumpa vilken reklam som ska visas upp
@@ -44,8 +44,8 @@ $(document).ready(function(){
     
     $(".likeButton3").click(function(){
 	    var txt1 = document.createElement("div");
-  		var randomNumberX = Math.floor(Math.random() * (1090 - 300)) + 800;
-  		var randomNumberY = Math.floor(Math.random() * (900 - 10)) + 10;
+  		var randomNumberX = Math.floor(Math.random() * (680 - 300)) + 750;
+  		var randomNumberY = Math.floor(Math.random() * (500 - 0)) + 1;
   		var randomReklam = Math.floor(Math.random() * 2) + 1;
 
   		if(randomReklam == 1){
@@ -63,8 +63,8 @@ $(document).ready(function(){
 
         $(".likeButton4").click(function(){
 	    var txt1 = document.createElement("div");
-  		var randomNumberX = Math.floor(Math.random() * (1080 - 300)) + 800;
-  		var randomNumberY = Math.floor(Math.random() * (900 - 10)) + 1;
+  		var randomNumberX = Math.floor(Math.random() * (680 - 300)) + 750;
+  		var randomNumberY = Math.floor(Math.random() * (500 - 0)) + 1;
   		var randomReklam = Math.floor(Math.random() * 2) + 1;
 
 //slumpa vilken reklam som ska visas upp
@@ -83,8 +83,8 @@ $(document).ready(function(){
 
     $(".likeButton5").click(function(){
 	    var txt1 = document.createElement("div");
-  		var randomNumberX = Math.floor(Math.random() * (1080 - 300)) + 800;
-  		var randomNumberY = Math.floor(Math.random() * (900 - 10)) + 1;
+  		var randomNumberX = Math.floor(Math.random() * (680 - 300)) + 750;
+  		var randomNumberY = Math.floor(Math.random() * (500 - 0)) + 1;
   		var randomReklam = Math.floor(Math.random() * 2) + 1;
 
 //slumpa vilken reklam som ska visas upp
@@ -104,8 +104,8 @@ $(document).ready(function(){
 
         $(".likeButton6").click(function(){
 	    var txt1 = document.createElement("div");
-  		var randomNumberX = Math.floor(Math.random() * (1090 - 300)) + 800;
-  		var randomNumberY = Math.floor(Math.random() * (900 - 10)) + 10;
+  		var randomNumberX = Math.floor(Math.random() * (680 - 300)) + 750;
+  		var randomNumberY = Math.floor(Math.random() * (500 - 0)) + 1;
   		var randomReklam = Math.floor(Math.random() * 2) + 1;
 
   		if(randomReklam == 1){

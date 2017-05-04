@@ -145,8 +145,8 @@
 	background-image: url('bilder/reklam3.png');	
 }
 .reklam4{
-	width: 250px;
-	height: 200px;
+	width: 200px;
+	height: 400px;
 	/*float: right;*/
 	position: fixed;
 	background-image: url('bilder/reklam4.png');	
