@@ -1,0 +1,168 @@
+    .video_background {
+	position: fixed;
+	top: 60%;
+	left: 50%;
+	min-width: 70%;
+	min-height: 70%;
+	width: auto;
+	height: auto;
+	z-index: 999999;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	}
+
+	/*Gör så att HELA videon får plats i webbläsaren (annars syns typ bara mitten av videon)*/
+	@media (min-aspect-ratio: 16/9) {
+  	.video_background {
+    width: 100%;
+    height: auto; /* actually taller than viewport */
+	  }
+	}
+	@media (max-aspect-ratio: 16/9) {
+  	.video_background{
+    width: auto; /* actually wider than viewport */
+    height: 100%;
+ 		 }
+	}
+	
+	header {
+	width: 100%;
+	padding-bottom: 5%;
+	text-align: center;
+	font-size: 72px;
+	}
+
+	p {
+		font-size: 2vw;
+		color: black;
+	}
+	
+	body {
+
+	background-color: #f9f9f9;
+	}
+
+/* MEDIAINLÄGG OCH REKLAM*/	
+
+/* Container 1*/		
+.container1{
+    width: 960px;
+	height: 293px;
+	margin-left: 200px;
+}
+/*-----------like button----------*/
+.likeButton{
+	position: relative;
+	width: 70px;
+	height: 70px;
+	left: 483px;
+	top: 114px;
+	background-image: url('file:///C:/Users/KrummelKrum/Google%20Drive/Kandidatarbete/Gestaltning/Kandidat/bilder/tumme.png');
+}
+.likeButton2{
+	position: relative;
+	width: 70px;
+	height: 70px;
+	left: 491px;
+	top: 74px;
+	background-image: url('file:///C:/Users/KrummelKrum/Google%20Drive/Kandidatarbete/Gestaltning/Kandidat/bilder/tumme.png');
+}
+.likeButton3{
+	position: relative;
+	width: 70px;
+	height: 70px;
+	left: 497px;
+	top: 84px;
+	background-image: url('file:///C:/Users/KrummelKrum/Google%20Drive/Kandidatarbete/Gestaltning/Kandidat/bilder/tumme.png');
+}
+.likeButton4{
+	position: relative;
+	width: 70px;
+	height: 70px;
+	left: 476px;
+	top: 77px;
+	background-image: url('file:///C:/Users/KrummelKrum/Google%20Drive/Kandidatarbete/Gestaltning/Kandidat/bilder/tumme.png');
+}
+.likeButton5{
+	position: relative;
+	width: 70px;
+	height: 70px;
+	left: 477px;
+	top: 78px;
+	background-image: url('file:///C:/Users/KrummelKrum/Google%20Drive/Kandidatarbete/Gestaltning/Kandidat/bilder/tumme.png');
+}
+/*-----------inlägg----------*/
+.inlagg1{
+	width: 600px;
+	height: 293px;
+	float: left;
+	background-image: url('file:///C:/Users/KrummelKrum/Google%20Drive/Kandidatarbete/Gestaltning/Kandidat/bilder/media1.png');
+}
+.inlagg2{
+	width: 600px;
+	height: 170px;
+	margin-left: 200px;
+	background-image: url('file:///C:/Users/KrummelKrum/Google%20Drive/Kandidatarbete/Gestaltning/Kandidat/bilder/media2.png');
+}
+.inlagg3{
+	width: 600px;
+	height: 170px;
+	margin-left: 200px;
+	background-image: url('file:///C:/Users/KrummelKrum/Google%20Drive/Kandidatarbete/Gestaltning/Kandidat/bilder/media3.png');
+}
+.inlagg4{
+	width: 597px;
+	height: 170px;
+	margin-left: 200px;
+	background-image: url('file:///C:/Users/KrummelKrum/Google%20Drive/Kandidatarbete/Gestaltning/Kandidat/bilder/media4.png');
+}
+.inlagg5{
+	width: 597px;
+	height: 170px;
+	margin-left: 200px;
+	background-image: url('file:///C:/Users/KrummelKrum/Google%20Drive/Kandidatarbete/Gestaltning/Kandidat/bilder/media5.png');
+}
+/*----------reklam---------*/
+.reklam1{
+	width: 250px;
+	height: 400px;
+	/*float: right;*/
+	position: fixed;
+	background-image: url('file:///C:/Users/KrummelKrum/Google%20Drive/Kandidatarbete/Gestaltning/Kandidat/bilder/reklam1.png');	
+}
+.reklam2{
+	width: 300px;
+	height: 350px;
+	/*float: right;*/
+	position: fixed;
+	background-image: url('file:///C:/Users/KrummelKrum/Google%20Drive/Kandidatarbete/Gestaltning/Kandidat/bilder/reklam2.png');	
+}
+.reklam3{
+	width: 250px;
+	height: 200px;
+	/*float: right;*/
+	position: fixed;
+	background-image: url('file:///C:/Users/KrummelKrum/Google%20Drive/Kandidatarbete/Gestaltning/Kandidat/bilder/reklam3.png');	
+}
+.reklam4{
+	width: 250px;
+	height: 200px;
+	/*float: right;*/
+	position: fixed;
+	background-image: url('file:///C:/Users/KrummelKrum/Google%20Drive/Kandidatarbete/Gestaltning/Kandidat/bilder/reklam4.png');	
+}
+.reklam5{
+	width: 300px;
+	height: 250px;
+	/*float: right;*/
+	position: fixed;
+	background-image: url('file:///C:/Users/KrummelKrum/Google%20Drive/Kandidatarbete/Gestaltning/Kandidat/bilder/reklam5.png');	
+}
+.reklam6{
+	width: 300px;
+	height: 250px;
+	/*float: right;*/
+	position: fixed;
+	background-image: url('file:///C:/Users/KrummelKrum/Google%20Drive/Kandidatarbete/Gestaltning/Kandidat/bilder/reklam6.png');	
+}
+/* slut */	
