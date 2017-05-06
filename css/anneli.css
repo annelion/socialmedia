@@ -6,7 +6,7 @@
 	min-height: 70%;
 	width: auto;
 	height: auto;
-	z-index: 999999;
+	z-index: 999997;
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
 	}
@@ -42,83 +42,105 @@
 	background-color: #f9f9f9;
 	}
 
-/* MEDIAINLÄGG OCH REKLAM*/	
-
-/* Container 1*/		
-.container1{
-    width: 960px;
-	height: 293px;
-	margin-left: 200px;
+/*------------startskärmen----------------*/	
+.startSkram{
+	z-index: 9999998;
+	background-color: #f9f9f9;
+	width: 10000px;
+	height: 10000px;
+	position: absolute;	
+	left: -100px;
+	top: -100px;
+}
+.startKnapp{
+	z-index: 9999999;
+	background-color: #666666;
+	left: 550px;
+	top: 400px;
+	position: absolute;
+	text-align: center;	
+	-webkit-border-radius: 10;
+ 	-moz-border-radius: 10;
+ 	border-radius: 10px;
+  	font-family: Arial;
+  	color: #ffffff;
+  	font-size: 40px;
+  	background: #3498db;
+  	padding: 10px 20px 10px 20px;
+  	text-decoration: none;
 }
 /*-----------like button----------*/
-.likeButton{
+.likeButton1{
 	position: relative;
 	width: 70px;
 	height: 70px;
-	left: 483px;
-	top: 114px;
+	left: 500px;
+	top: 75px;
 	background-image: url('bilder/tumme.png');
 }
 .likeButton2{
 	position: relative;
 	width: 70px;
 	height: 70px;
-	left: 491px;
-	top: 74px;
+	left: 500px;
+	top: 75px;
 	background-image: url('bilder/tumme.png');
 }
 .likeButton3{
 	position: relative;
 	width: 70px;
 	height: 70px;
-	left: 497px;
-	top: 84px;
+	left: 500px;
+	top: 75px;
 	background-image: url('bilder/tumme.png');
 }
 .likeButton4{
 	position: relative;
 	width: 70px;
 	height: 70px;
-	left: 476px;
-	top: 77px;
+	left: 500px;
+	top: 75px;
 	background-image: url('bilder/tumme.png');
 }
 .likeButton5{
 	position: relative;
 	width: 70px;
 	height: 70px;
-	left: 477px;
-	top: 78px;
+	left: 500px;
+	top: 75px;
 	background-image: url('bilder/tumme.png');
+}
+.likeButton1:hover, .likeButton2:hover, .likeButton3:hover, .likeButton4:hover, .likeButton5:hover, .likeButton6:hover {
+   background-image: url('bilder/tumme2.png');
 }
 /*-----------inlägg----------*/
 .inlagg1{
 	width: 600px;
-	height: 293px;
-	float: left;
+	height: 160px;
+	margin-left: 200px;
 	background-image: url('bilder/media1.png');
 }
 .inlagg2{
 	width: 600px;
-	height: 170px;
+	height: 160px;
 	margin-left: 200px;
 	background-image: url('bilder/media2.png');
 }
 .inlagg3{
 	width: 600px;
-	height: 170px;
+	height: 160px;
 	margin-left: 200px;
 	background-image: url('bilder/media3.png');
 }
 .inlagg4{
-	width: 597px;
-	height: 170px;
+	width: 600px;
+	height: 160px;
 	margin-left: 200px;
 	background-image: url('bilder/media4.png');
 }
 .inlagg5{
-	width: 597px;
-	height: 170px;
+	width: 600px;
+	height: 160px;
 	margin-left: 200px;
 	background-image: url('bilder/media5.png');
 }
@@ -126,43 +148,43 @@
 .reklam1{
 	width: 250px;
 	height: 400px;
-	/*float: right;*/
-	position: fixed;
+	left: 850px;
+	position: absolute;
 	background-image: url('bilder/reklam1.png');	
 }
 .reklam2{
 	width: 300px;
 	height: 350px;
-	/*float: right;*/
-	position: fixed;
+	left: 850px;
+	position: absolute;
 	background-image: url('bilder/reklam2.png');	
 }
 .reklam3{
 	width: 250px;
 	height: 200px;
-	/*float: right;*/
-	position: fixed;
+	left: 850px;
+	position: absolute;
 	background-image: url('bilder/reklam3.png');	
 }
 .reklam4{
 	width: 200px;
 	height: 400px;
-	/*float: right;*/
-	position: fixed;
+	left: 850px;
+	position: absolute;
 	background-image: url('bilder/reklam4.png');	
 }
 .reklam5{
 	width: 300px;
 	height: 250px;
-	/*float: right;*/
-	position: fixed;
+	left: 850px;
+	position: absolute;
 	background-image: url('bilder/reklam5.png');	
 }
 .reklam6{
 	width: 300px;
 	height: 250px;
-	/*float: right;*/
-	position: fixed;
+	left: 850px;
+	position: absolute;
 	background-image: url('bilder/reklam6.png');	
 }
 /* slut */	
